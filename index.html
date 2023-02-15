@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Weather App</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <script src="./forecast.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body> 
+    
+    
+
+        <div class="car" >
+            <div class="search">
+                <input type="text" class="search-bar">
+                <button class="btn">
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1.5em" width="1.5em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.442 10.442a1 1 0 011.415 0l3.85 3.85a1 1 0 01-1.414 1.415l-3.85-3.85a1 1 0 010-1.415z" clip-rule="evenodd"></path><path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 100-11 5.5 5.5 0 000 11zM13 6.5a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z" clip-rule="evenodd"></path></svg>
+                </button>
+            </div>
+            <div class="weather">
+                <h2 class="city">Weather in Delhi</h2>
+                <h1 class="temp">40℃</h1>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="" class="icon">
+                <div class="description">Cloudy</div>
+                <div class="humidity">Humidity:45%</div>
+                <div class="wind">Wind Speed:2km/h</div>
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="card" id="c1">
+                <h2 class="day1">Monday</h2>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="" class="ico">
+                <h3><div class="desc1"></div></h3>
+                <div class="max"></div>
+                <div class="min"></div>
+                <div class="hum1"></div>
+                <div class="ws1"></div>
+
+            </div>
+            <div class="card" id="c1">
+                <h2 class="day2">Tuesday</h2>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="" class="icoo">
+            <h3><div class="desc2"></div></h3>
+                <div class="maxx"></div>
+                <div class="minn"></div>
+                <div class="hum2"></div>
+                <div class="ws2"></div>
+
+
+                
+            </div>
+            <div class="card" id="c3">
+                <h2 class="day3">Wednesday</h2>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="" class="icooo">
+            <h3><div class="desc3"></div></h3>
+                <div class="maxxx"></div>
+                <div class="minnn"></div>
+                <div class="hum3"></div>
+                <div class="ws3"></div>
+
+
+            </div>
+            <div class="card" id="c4">
+                <h2 class="day4">Thursday</h2>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="" class="icoooo">
+                <h3><div class="desc4"></div></h3>
+                <div class="maxxxx"></div>
+                <div class="minnnn"></div>
+                <div class="hum4"></div>
+                <div class="ws4"></div>
+
+
+
+            </div>
+            <div class="card" id="c5">
+                <h2 class="day5">Friday</h2>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="" class="icooooo">
+                <h3><div class="desc5"></div></h3>
+                <div class="maxxxxx"></div>
+                <div class="minnnnn"></div>
+                <div class="hum5"></div>
+                <div class="ws5"></div>
+
+            </div>
+          </div>
+        
+    </body>
+</html>
